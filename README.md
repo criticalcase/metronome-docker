@@ -33,7 +33,7 @@ To create the image `criticalcase/metronome`, execute the following command on t
 UI using docker compose
 -----------------------
 
-UI is provided by nginx server using metronome html/js static file:
+UI is provided by nginx server using metronome html/js/css static files:
 
     docker-compose up
 
