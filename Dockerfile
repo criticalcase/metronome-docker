@@ -29,8 +29,16 @@ VOLUME /usr/share/metronome/html
 
 CMD ["/usr/bin/metronome", "--stats-directory=/usr/share/metronome/stats", "--daemon=0"]
 
+# Metadata params
+ARG BUILD_DATE
 ARG VCS_REF
+ARG VERSION
 
+# Metadata
 LABEL org.label-schema.vcs-ref=$VCS_REF \
-      org.label-schema.vcs-url="https://github.com/criticalcase/metronome-docker"
+      org.label-schema.vcs-url="https://github.com/criticalcase/metronome-docker" \
+	  org.label-schema.version=$VERSION \
+	  org.label-schema.build-date=$BUILD_DATE \
+	  org.label-schema.url="https://www.criticalcase.com" \
+	  com.microscaling.license="MIT"
                 

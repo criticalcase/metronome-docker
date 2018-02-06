@@ -3,9 +3,7 @@ Metrnome Docker
 
 This project is a Docker container for PowerDNS Metronome. 
 
-[![Docker Repository on Quay](https://quay.io/repository/criticalcase/metronome/status "Docker Repository on Quay")](https://quay.io/repository/criticalcase/metronome)
-[![](https://images.microbadger.com/badges/image/criticalcase/metronome.svg)](https://microbadger.com/images/criticalcase/metronome "Get your own image badge on microbadger.com")
-[![](https://images.microbadger.com/badges/version/criticalcase/metronome.svg)](https://microbadger.com/images/criticalcase/metronome "Get your own version badge on microbadger.com")
+[![](https://images.microbadger.com/badges/image/criticalcase/metronome.svg)](https://microbadger.com/images/criticalcase/metronome "Get your own image badge on microbadger.com") [![](https://images.microbadger.com/badges/version/criticalcase/metronome.svg)](https://microbadger.com/images/criticalcase/metronome "Get your own version badge on microbadger.com")
 
 Base [docker image](http://www.docker.io) to run a [Metronome](https://github.com/ahupowerdns/metronome) server
 
