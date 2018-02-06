@@ -51,5 +51,5 @@ Contributions are welcome.
 License
 -------
 
-Copyright 2017 CriticalCase Srl
+Copyright 2018 CriticalCase Srl
 Licensed under the MIT License
