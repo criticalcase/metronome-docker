@@ -3,7 +3,7 @@ Metrnome Docker
 
 This project is a Docker container for PowerDNS Metronome. 
 
-[![](https://imagelayers.io/badge/criticalcase/metronome-docker:latest.svg)](https://imagelayers.io/?images=criticalcase/metronome-docker:latest 'ImageLayers') [![Docker Repository on Quay](https://quay.io/repository/criticalcase/metronome-docker/status "Docker Repository on Quay")](https://quay.io/repository/criticalcase/metronome-docker)
+[![Docker Repository on Quay](https://quay.io/repository/criticalcase/metronome/status "Docker Repository on Quay")](https://quay.io/repository/criticalcase/metronome)
 
 Base [docker image](http://www.docker.io) to run a [Metronome](https://github.com/ahupowerdns/metronome) server
 

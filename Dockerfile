@@ -28,3 +28,9 @@ VOLUME /usr/share/metronome/stats
 VOLUME /usr/share/metronome/html
 
 CMD ["/usr/bin/metronome", "--stats-directory=/usr/share/metronome/stats", "--daemon=0"]
+
+ARG VCS_REF
+
+LABEL org.label-schema.vcs-ref=$VCS_REF \
+      org.label-schema.vcs-url="https://github.com/criticalcase/metronome-docker"
+                
