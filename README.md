@@ -1,5 +1,5 @@
-Metrnome Docker
-===============
+Metronome Docker
+================
 
 This project is a Docker container for PowerDNS Metronome. 
 
