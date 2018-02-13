@@ -6,6 +6,7 @@ services:
       - 2003:2003
     volumes:
       - ./metronome/local.js:/usr/share/metronome/html/local.js:ro
+      - /usr/share/metronome/stats:/usr/share/metronome/stats
     restart: always
   nginx: 
     image: nginx:latest
